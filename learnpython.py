@@ -66,3 +66,13 @@ if x_list.count(x) == 10 and y_list.count(y) == 10:
     print "Almost there..."
 if big_list.count(x) == 10 and big_list.count(y) == 10:
     print "Great!"
+
+  #String operators"
+'''You will need to write a format string which prints out the data using the following syntax: Hello John Doe. 
+Your current balance is 53.44$.'''
+
+data = ("John", "Doe", 53.44)
+format_string = "Hello"
+
+print "Hello %s %s. Your current balance is %.2f$." % (data)
+
